@@ -13,9 +13,11 @@ http://christinatruong.com
   box-sizing: border-box;
 }
 
+
+
 body {
   /*This determines the font style for the paragraphs and text of the website.*/
-  font-family: 'Baloo Paaji', cursive;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   /*To change the background image, change the file name in the url below*/
   background: url(../images/background-4.jpg) no-repeat fixed 50%;
@@ -32,17 +34,31 @@ li{
 }
 h1, h2, h3, h4 {
   /*This is the font for headings*/
-  font-family:  'Abril Fatface', cursive;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   margin: 0;
 }
+
+h4{
+  font-size:2rem;
+}
+
+.navbar{
+	text-transform: uppercase;
+	background-color: #505962;
+}
+
+.navbar-brand img{
+	height: 2rem;
+}
+
 section h1,
 header h2 {
   text-transform: uppercase;
 }
 header h1 {
   /*This is the fancy font for your main heading*/
-  font-family:  'Abril Fatface', cursive;
+font-family: 'Roboto Slab', serif;
   color: #92140C;
   /*Make your main heading bigger or smaller by changing the number below.*/
   font-size: 90px;
@@ -123,6 +139,7 @@ header {
   float: left;
   width: 27%;
   margin-right: 3%;
+  margin-top: 7.5%;
   padding: 4px;
   border: 1px solid #ddd;
   border-radius: 50%;
@@ -174,11 +191,29 @@ header {
 
 .company {
   /*These are the styles for the name of the places your worked in the Work Experience section*/
-  font-family: "Pacifico", Georgia, cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   letter-spacing: 0.1em;
   color: #2C808C;
 }
+
+/* Download Button */
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  margin-left: 38%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
 /*PHOTOGRAPHY
 ------------*/
 /* Slideshow container */
@@ -188,9 +223,30 @@ header {
   margin: auto;
 }
 
-.mySlides {
+/*.mySlides {
     display: none;
 }
+
+.carousel-indicators-numbers {
+    li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+      &.active, &:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: #337ab7;
+      }
+    }
+} */
 
 /* Next & previous buttons */
 .prev, .next {
