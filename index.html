@@ -1,21 +1,205 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Chloe Maceda</title>
-    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="home.css">
-  <script src="action.js"></script>
-  </head>
-  <body>
+<!doctype html>
+<html lang="en">
 
-    <h1>
-    <a href="" class="typewrite" data-period="2000" data-type='[ "Hi there! Looking for Chloe?👩‍💻", "She is updating her website! 🔨", "Stay Tuned ✨", "9.1.2020", ":)" ]'>
-      <span class="wrap"></span>
-    </a>
-    </h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src ="projects.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>👩🏻‍💻 chloe maceda</title>
+</head>
 
-  </body>
+
+<body>
+<!-- NAV BAR -->
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+   <label class = "logo"> <a href="#home"><img id ="logo" src ="images/home/name.svg"> </a></label>
+    <ul>
+        <li><a class="pink" href="#projects">projects</a></li>
+        <li><a class="blue" href="#media">media</a></li>
+        <li><a class="Lightpink" href="#about">about</a></li>
+    </ul>
+</nav>
+</br>
+<!-- HOME SECTION -->
+<center>
+<div id="home">
+<img class="intro-pic" src ="images/home/profile.svg">
+<div id="bio">
+    <img class="intro-bg" src ="images/home/intro_bg.svg">
+    <div class="bio_text"> 
+        <h1>Hi 👋 I’m Chloe!</h1>
+        <h2>A passionate individual who 👩🏻‍💻 programs and 🎨 designs things. </h2>
+        <h2> Currently looking for 🌤 Summer 2021 Internships </h2>
+        <a href="https://www.linkedin.com/in/chloe-maceda/" style="float: left;" target="_blank"><h3> 🔗 Let's Connect! </h3></a>
+        <h3 style="float: right;"> Based in Toronto, ON. </h3>
+    </div>
+    
+</div>
+</div>
+</center>
+<!-- PROJECTS -->
+<h2 style="padding-left:50px;"> check out some cool projects I've worked on! :)</h2>
+<div id="projects">
+  <!-- UX/UI DESIGN -->
+  <div class="dropdown">
+    <button onclick="myFunction1()" class="dropbtn" style="background-color: #F3D7B0;">ux design</button>
+      <div id="myDropdown1" class="dropdown-content">
+          <div class ="scrolling-wrapper">
+            <div class="row">
+              <div class="column">
+                <img src="images/projects/iLearn-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(1)" class="hover-shadow cursor">
+                <img src="images/projects/DesignHub-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(2)" class="hover-shadow cursor">
+                <img src="images/projects/EcoStyle-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(3)" class="hover-shadow cursor">
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <div id="ecoStyle" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides1">
+        <div class="numbertext">1/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/iLearn-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">2/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/DesignHub-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">3/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/EcoStyle-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">31/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/frosh-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">2/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/preKode-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">3/3</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/shift-info.svg" > </a>
+      </div>
+      <div class="mySlides1">
+        <div class="numbertext">1/1</div>
+        <a href="https://fashion-seeds.000webhostapp.com/"><img src="images/projects/seeds-info.svg" > </a>
+      </div>
+
+            
+      <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+  
+    </div>
+  </div>
+    <br>
+  <!-- WEBSITES -->
+  <div class="dropdown">
+      <button onclick="myFunction2()" class="dropbtn" style="background-color: #A9D1F5;">graphic design</button>
+      <div id="myDropdown2" class="dropdown-content">
+        <div class ="scrolling-wrapper">
+          <div class="row">
+            <div class="column">
+              <img src="images/projects/frosh-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(4)" class="hover-shadow cursor">
+              <img src="images/projects/preKode-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(5)" class="hover-shadow cursor">
+              <img src="images/projects/shift-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <br>
+  <!-- WEBSITES -->  
+  <div class="dropdown">
+      <button onclick="myFunction3()" class="dropbtn" style="background-color: #FCF18E;">websites</button>
+      <div id="myDropdown3" class="dropdown-content">
+        <div class ="scrolling-wrapper">
+          <div class="row">
+            <div class="column">
+              <img src="images/projects/seeds-logo.svg" style="width:100%" onclick="open_ecostyle_Modal();currentSlide(7)" class="hover-shadow cursor">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <br>
+  <!-- AUGMENTED REALITY --> 
+  <div class="dropdown">
+    <button onclick="myFunction4()" class="dropbtn" style="background-color: #E2C3E4;"> augmented reality </button>
+    <div id="myDropdown4" class="dropdown-content">
+        <div class ="scrolling-wrapper">
+          <h2> coming soon! </h2>
+        </div>
+  </div>
+</div>
+  <br>
+  <!-- PHOTOGRAPHY --> 
+  <div class="dropdown">
+    <button onclick="myFunction5()" class="dropbtn" style="background-color: #AED7DD;">photography </button>
+    <div id="myDropdown5" class="dropdown-content">
+        <div class ="scrolling-wrapper">
+          <h2> coming soon! </h2>
+        </div>
+  </div>
+</div>
+</div>
+
+<!-- MEDIA -->
+<h2 style="padding-left:50px;"> works I am featured in and blogs I've written </h2>
+<div id="media">
+    <div class="dropdown">
+        <button onclick="myFunction6()" class="dropbtn" style="background-color: #F3D7B0;">blog</button>
+        <div id="myDropdown6" class="dropdown-content">
+         <a href="https://www.canadalearningcode.ca/my-summer-of-teaching-travelling-and-working-with-the-code-mobile/" style="padding-left: 50px; padding-right: 50px;" target=”_blank” ><h3 style="float: left;"> My Summer of Teaching, Travelling, and Working with the Code Mobile </h3><h3 style="float: right;"> 2017 </h3></a> 
+        </div>
+        </div>
+        <br>
+        <div class="dropdown">
+          <button onclick="myFunction7()" class="dropbtn" style="background-color: #A9D1F5;">press</button>
+          <div id="myDropdown7" class="dropdown-content">
+            
+            <a href="https://www.ryerson.ca/news-events/news/2020/03/ryerson-aims-to-close-the-gender-gap-in-computer-science/" style="padding-left: 50px; padding-right: 50px;" target=”_blank” ><h3 style="float: left;"> Ryerson Aims to Close The Gender Gap In Computer Science </h3><h3 style="float: right;"> 2020 </h3></a> 
+            <br>
+            <br>
+            <br>
+            <a href="https://notablelife.com/python-ladies-learning-code/" style="padding-left: 50px; padding-right: 50px;" target=”_blank”><h3 style="float: left;"> How Learning Python Is Helping Girls Shape The World </h3><h3 style="float: right;"> 2017 </h3></a> 
+        </div>
+      </div>
+    </div>
+
+<!-- ABOUT -->
+<h2 style="padding-left:50px;"> a little bit more about me... </h2>
+<div id="about">
+
+<div id ="aboutLeft" style ="width: 50%; height: 400px; background-color: #ECBBAB; position: relative; display:inline-block; margin:0; vertical-align: top;">
+    <h2 style="padding: 50px;margin: 0 auto; font-weight: 100; font-size: 1.5em;"> Chloe is a self-driven and curious person. She is passionate about Women in STEAM, UX/UI Design, and Photography. I aspire to work in tech companies to tackle meaningful and challenging projects that will help our society today, and to travel around the world.
+
+        💻 Outside of school, she encourages and teaches children how to program their own websites/video games. </h2>
+</div>
+<div id ="aboutRight" style ="width: 49%; height: 400px; background-color: #FCF18E; position: relative; display:inline-block; margin: 0;">
+    <h2 style="padding-left: 50px; padding-right: 50px; font-weight: 100; font-size: 1.75em;">🏫 3rd Year Computer Science & Communication Design Student
+        <br>@ Ryerson University</h2>
+    <h2 style="padding-left: 50px; padding-right: 50px;font-weight: 100; font-size: 1.75em;"> 🔗 Let’s connect!
+       <br> <a href="https://www.linkedin.com/in/chloe-maceda/">LinkedIn</a> </h2>
+</div>
+</div>
+</body>
+<footer>
+    <h2>chloe maceda</h2>
+</footer>
 
 
 </html>
