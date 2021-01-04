@@ -451,39 +451,4 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding-left:50px; 
         width: 600px;
     }
-    #aboutLeft {
-        width: 600px; 
-        height: 450px; 
-        background-color: #ECBBAB; 
-        position: relative; 
-        display:inline-block; 
-        margin:0; 
-        vertical-align: top;
-        word-break:break-word;
-    }
-    #aboutLeft h2{
-        padding-left: 50px;
-        padding-right: 50px;
-        margin: 0 auto; 
-        font-weight: 100; 
-        word-wrap:break-word;
-        font-size: 1.75em;
-    }
-    
-    #aboutRight{
-        width: 600px; 
-        height: 450px; 
-        background-color: #FCF18E; 
-        position: relative; 
-        display:inline-block; 
-        margin: 0;
-    }
-    
-    #aboutRight h2{
-        padding-left: 50px; 
-        padding-right: 50px; 
-        font-weight: 100; 
-        font-size: 1.8vw;
-    
-    }
 }
