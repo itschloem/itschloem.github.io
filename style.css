@@ -163,9 +163,14 @@ a.active, a.blue:hover{
     
     .show {display: block;}
 
+    h2.text-dropdown{
+        padding-top: 0px;
+    }
     #projects h2, #media h2, #about h2 {
         padding-top: 30px;
     }
+   
+    
     footer{
         text-align: center; 
         background-color: #F3D7B0; 
@@ -310,25 +315,32 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*ABOUT SECTION */
+#about h2{
+    padding-left:50px; 
+    width: 600px;
+}
 #aboutLeft {
     width: 50%; 
-    height: 400px; 
+    height: 450px; 
     background-color: #ECBBAB; 
     position: relative; 
     display:inline-block; 
     margin:0; 
     vertical-align: top;
+    word-break:break-word;
 }
 #aboutLeft h2{
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto; 
     font-weight: 100; 
-    font-size: 1.5em;
+    word-wrap:break-word;
+    font-size: 1.75em;
 }
 
 #aboutRight{
     width: 49%; 
-    height: 400px; 
+    height: 450px; 
     background-color: #FCF18E; 
     position: relative; 
     display:inline-block; 
@@ -339,7 +351,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-left: 50px; 
     padding-right: 50px; 
     font-weight: 100; 
-    font-size: 1.75em;
+    font-size: 1.8vw;
 
 }
 /* DIFFERENT SCREEN SIZE */
@@ -356,6 +368,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     .bio_text h2{
         font-size: 1.5em;
     }
+    
 }
 
 @media (max-width:952px){
@@ -370,6 +383,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #media h3{
         font-size: 1em;
+    }
+    #aboutLeft{
+        width: 100%;
     }
 }
 @media (max-width: 858px){
@@ -426,9 +442,48 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 @media(max-width:400px){
     #projects h2{
-        width: 600px;
+        width: 200%;
     } 
     #media h2{
-        width: 600px;
+        width: 200%;
     } 
+    #about h2{
+        padding-left:50px; 
+        width: 600px;
+    }
+    #aboutLeft {
+        width: 200%; 
+        height: 450px; 
+        background-color: #ECBBAB; 
+        position: relative; 
+        display:inline-block; 
+        margin:0; 
+        vertical-align: top;
+        word-break:break-word;
+    }
+    #aboutLeft h2{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0 auto; 
+        font-weight: 100; 
+        word-wrap:break-word;
+        font-size: 1.75em;
+    }
+    
+    #aboutRight{
+        width: 200%; 
+        height: 450px; 
+        background-color: #FCF18E; 
+        position: relative; 
+        display:inline-block; 
+        margin: 0;
+    }
+    
+    #aboutRight h2{
+        padding-left: 50px; 
+        padding-right: 50px; 
+        font-weight: 100; 
+        font-size: 1.8vw;
+    
+    }
 }
