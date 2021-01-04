@@ -387,6 +387,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     #aboutLeft{
         width: 100%;
     }
+    #aboutRight{
+        width:100%;
+    }
 }
 @media (max-width: 858px){
     .checkbtn{
@@ -457,6 +460,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 193%;
     }
     #aboutRight{
+        width: 193%;
+    }
+    footer{
         width: 193%;
     }
 }
