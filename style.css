@@ -351,7 +351,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-left: 50px; 
     padding-right: 50px; 
     font-weight: 100; 
-    font-size: 1.8vw;
+    font-size: 1.75em;
 
 }
 /* DIFFERENT SCREEN SIZE */
@@ -441,10 +441,22 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     .dropdown{
         width: 105%;
     }
+    #aboutLeft{
+        width: 107.5%;
+    }
+    #aboutRight{
+        width: 107.5%;
+    }
 }
 
 @media(max-width:400px){
     .dropdown{
+        width: 107%;
+    }
+    #aboutLeft{
+        width: 107%;
+    }
+    #aboutRight{
         width: 107%;
     }
 }
