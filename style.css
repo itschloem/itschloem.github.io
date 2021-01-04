@@ -309,6 +309,39 @@ transition: 0.3s;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*ABOUT SECTION */
+#aboutLeft {
+    width: 50%; 
+    height: 400px; 
+    background-color: #ECBBAB; 
+    position: relative; 
+    display:inline-block; 
+    margin:0; 
+    vertical-align: top;
+}
+#aboutLeft h2{
+    padding: 50px;
+    margin: 0 auto; 
+    font-weight: 100; 
+    font-size: 1.5em;
+}
+
+#aboutRight{
+    width: 49%; 
+    height: 400px; 
+    background-color: #FCF18E; 
+    position: relative; 
+    display:inline-block; 
+    margin: 0;
+}
+
+#aboutRight h2{
+    padding-left: 50px; 
+    padding-right: 50px; 
+    font-weight: 100; 
+    font-size: 1.75em;
+
+}
 /* DIFFERENT SCREEN SIZE */
 @media (max-width:1400px){
     .intro-pic{
@@ -334,6 +367,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #home{
         height: 750px;
+    }
+    #media h3{
+        font-size: 1em;
     }
 }
 @media (max-width: 858px){
@@ -374,11 +410,25 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     #check:checked ~ ul{
         left: 0;
     }
-    
-}
-@media(max-width: 530px){
-    .dropbtn{
-        width: 100%;
+    #media h3{
+        font-size: 0.75em;
     }
     
+}
+@media(max-width: 650px){
+    #home{
+        padding-left: 60px;
+    }
+    #projects, #media{
+        width: 650px;
+    }
+}
+
+@media(max-width:400px){
+    #projects h2{
+        width: 600px;
+    } 
+    #media h2{
+        width: 600px;
+    } 
 }
